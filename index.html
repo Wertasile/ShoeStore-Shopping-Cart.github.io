@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Forum&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="styles.css" rel="stylesheet">
+    <script src="store.js" defer></script>
+</head>
+<body >
+    <!-- NAV BAR-->
+
+    <section id="navbar-section">
+        <div class="nav-bar">
+            <div class="left-navbar">
+                The ShoeStore      
+            </div>
+            
+            <div class="right-navbar">
+                <span><a href="#" onclick="kids()">KIDS</a></span>
+                <span><a href="#" onclick="women()">WOMEN</a></span>
+                <span><a href="#" onclick="men()">MEN</a></span>
+                <span><a href="#">BRANDS</a></span>
+                <span><a href="#">NEW RELEASES</a></span>
+                <span id="shopping-cart-button" class="material-symbols-outlined">shopping_cart</span>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <section>
+        <div id='kids' class="dropdown-menu">
+            <div>
+                <ul>
+                    <li style="font-weight:bold;">SALE</li>
+                    <li>Back to School</li>
+                    <li>SHOP ALL</li>
+                    
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li style="font-weight:bold;">FOOTWEAR TYPE</li>
+                    <li>Shoes</li>
+                    <li>Slippers</li>
+                    <li>Boots</li>
+                    <li>SANDALS</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li style="font-weight:bold;">FOOTWEAR BY SIZE</li>
+                    <li>JUNIOR-sizes (3.5-6.5)</li>
+                    <li>CHIDLREN-sizes(10-3)</li>
+                    <li>INFANT-sizes(0.5-9.5)</li>
+                </ul>
+            </div>
+        </div>
+        <div id='women' class="dropdown-menu">
+            <div>
+                <ul>
+                    <li style="font-weight:bold;">SALE</li>
+                    <li>SHOP ALL</li>
+                    
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li style="font-weight:bold;">FOOTWEAR TYPE</li>
+                    <li>Shoes</li>
+                    <li>Slippers</li>
+                    <li>Boots</li>
+                    <li>SANDALS</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li style="font-weight:bold;">SPORTS</li>
+                    <li>Football Shoes</li>
+                    <li>Tennis Shoes</li>
+                    <li>Running Shoes</li>
+                    <li>Gymnastic Shoes</li>
+                    <li>Skate</li>
+                    <li>BasketBall</li>
+                    <li>Other Sports/Activities</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li style="font-weight:bold;">ACCESSORIES</li>
+                    <li>Shoes Care</li>
+                    <li>Socks</li>
+                    <li>In Sole</li>
+                </ul>
+            </div>
+        </div>
+        <div id='men' class="dropdown-menu">
+            <div>
+                <ul>
+                    <li style="font-weight:bold;">SALE</li>
+                    <li>SHOP ALL</li>
+                    
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li style="font-weight:bold;">FOOTWEAR TYPE</li>
+                    <li>Shoes</li>
+                    <li>Slippers</li>
+                    <li>Boots</li>
+                    <li>SANDALS</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li style="font-weight:bold;">SPORTS</li>
+                    <li>Football Shoes</li>
+                    <li>Tennis Shoes</li>
+                    <li>Running Shoes</li>
+                    <li>Gymnastic Shoes</li>
+                    <li>Skate</li>
+                    <li>BasketBall</li>
+                    <li>Other Sports/Activities</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li style="font-weight:bold;">ACCESSORIES</li>
+                    <li>Shoes Care</li>
+                    <li>Socks</li>
+                    <li>In Sole</li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+    <!-- SHOPPING CART SIDE BAR-->
+
+    <section>
+        <div id="shopping-cart-side-bar">
+            
+            <div id="total-cost-side-bar">
+                <div id="total-cost-top">
+                    <div>
+                        <span>Subtotal: QR </span>
+                        <span id="total-cost"></span>
+                    </div>
+                    <div id="clear-cart">
+                        CLEAR CART
+                    </div>
+                </div>
+                
+            </div>
+            <div id="side-bar-cart-grid">
+                
+            </div>
+            
+        
+        
+            
+        
+    </section>
+
+    <!-- BANNER-->
+
+    <section style="color:black">
+        <div id="banner">
+            <div class="banner-content">
+                <div><h2>SUMMER SALE</h2></div>
+                <div>Check out the latest from Adidas</div>
+                <div>ON SALE NOW!</div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-------------------------------GRID------------------------>
+
+    <section>
+        <div id="grid-background"><h3>BEST SELLERS</h3>
+            <div id="grid-container" style="color:black;">
+                
+                <!--GRID ITEM 1---------------------------------------->
+                <div class="grid-item" class="fade">
+                    <div class="image-container">
+                        <img src="images/women-running-shoes.png">
+                    </div>
+                    <div style="display:flex; justify-content: space-between;">
+                        <div>
+                            <h4 class="name">Nike Women Running Shoes</h4>
+                        </div>
+                        <div>
+                            <h4 style="display: inline-block;">QR </h4>
+                            <h4 class="cost" style="display: inline-block;" >149</h4>
+                        </div>
+                    </div>
+                    <div style="text-align: center;">
+                        <button class="add-to-cart">ADD TO CART</button>
+                        <div class="quantity-class" style="display:none">1</div>
+                    </div>
+                    
+                </div>
+
+                <!--GRID ITEM 2---------------------------------------->
+                <div class="grid-item" class="fade">
+                    <div class="image-container">
+                        <img src="images/adidas-superstar.png">
+                    </div>
+                    <div style="display:flex; justify-content: space-between;">
+                        <div>
+                            <h4 class="name">Adidas Superstar</h4>
+                        </div>
+                        <div>
+                            <h4  style="display: inline-block;">QR </h4>
+                            <h4 class="cost" style="display: inline-block;" >169</h4>
+                        </div>
+                    </div>
+                    <div style="text-align: center;">
+                        <button class="add-to-cart">ADD TO CART</button>
+                        <div class="quantity-class" style="display:none">2</div>
+                    </div>
+                </div>
+
+                <!--GRID ITEM 3---------------------------------------->
+                <div class="grid-item" class="fade">
+                    <div class="image-container">
+                        <img src="images/nike-air-force-1-white-pixel.png">
+                    </div>
+                    <div style="display:flex; justify-content: space-between;">
+                        <div>
+                            <h4 class="name">Nike Air Force 1 </h4>
+                        </div>
+                        <div>
+                            <h4  style="display: inline-block;">QR </h4>
+                            <h4 class="cost" style="display: inline-block;" >199</h4>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <button class="add-to-cart">ADD TO CART</button>
+                        <div class="quantity-class" style="display:none">1</div>
+                    </div>
+                </div>
+
+                <!--GRID ITEM 4---------------------------------------->
+                <div class="grid-item" class="fade">
+                    <div class="image-container">
+                        <img src="images/some-shoes.png">
+                    </div>
+                    <div style="display:flex; justify-content: space-between;">
+                        <div>
+                            <h4 class="name">White Shoes </h4>
+                        </div>
+                        <div>
+                            <h4  style="display: inline-block;">QR </h4>
+                            <h4 class="cost" style="display: inline-block;" >109</h4>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <button class="add-to-cart">ADD TO CART</button>
+                        <div class="quantity-class" style="display:none">3</div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!--SHOPPING CART-->
+
+    <!--BRANDS GRID-->
+
+    <section>
+        <div id="brands-grid" class="fade">
+            <div>
+                <img style="background-color: white"src="images/brand-icons/adidas_318-565831.avif">
+            </div>
+            <div>
+                <img style="background-color: white" src="images/brand-icons/nike-logo-vector-01.png">
+            </div>
+            <div>
+                <img style="background-color: white" src="images/brand-icons/balance-png-logo-1.png">
+            </div>
+            <div>
+                <img style="background-color:white" src="images/brand-icons/jordon logo.png">
+            </div>
+            <div>
+                <img  style="background-color: white" src="images/brand-icons/puma-se-eps-vector-logo.png">
+            </div>
+            <div style="color:black; display:flex; align-items: center; justify-content: center; font-weight:bold; font-size:2em; font-family:monospace">
+                ALL BRANDS
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer style="background-image: linear-gradient(180deg,#0b1a38,#1a2552),linear-gradient(180deg,#282a35,#282a35); color:#ced4e4; font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 200;">
+        <!--footer grid top-->
+        <div class="footer-grid">
+            <div>
+                <div><h2>Shipping and Delivery FAQ</h2></div>
+                <div>Need answers?</div>
+                <div><span class="button">READ OUR FAQ</span></div>
+            </div>
+            <div>
+                <div><h2>My Orders</h2></div>
+                <div>Sign in to see orders you placed</div>
+                <div><span class="button">SEE ORDERS</span></div>
+            </div>
+            <div>
+                <div><h2>Store Locator</h2></div>
+                <div>Search for a store near you</div>
+                <div><span class="button">FIND STORE</span></div>
+            </div>
+        </div>
+
+        <!--footer grid bottom-->
+        <div class="footer-grid">   
+            <div>
+                <div>CUSTOMER SERVICE</div>
+                <div>Student Discounts</div>
+                <div>Shipping Delivery</div>
+                <div>My Orders</div>
+                <div>Order Status</div>
+            </div>
+            <div>
+                <div>LEGAL INFORMATION</div>
+                <div>Privacy Statement</div>
+                <div>Cookies</div>
+                <div>Terms and Conditions</div>
+                <div>Refunds and Returns</div>
+                <div>Modern Slavery Statement</div>
+            </div>
+            <div>
+                <div>ABOUT</div>
+                <div>Store Locator</div>
+                <div>About Us</div>
+                <div>Contact</div>
+                <div>Careers</div>
+            </div>
+            <div>
+                <div>SOCIAL MEDIA</div>
+                <span><img src="images/social-media/facebook-image.png"></span>
+                <span><img src="images/social-media/Instagram_icon.png.png"></span>
+                <span><img src="images/social-media/twittter-image.png"></span>
+                <span><img src="images/social-media/youtube-image.png"></span>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+    
+</body>
+</html>
